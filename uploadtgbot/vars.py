@@ -18,7 +18,7 @@ class Vars:
     SUPPORT_GROUP = config("SUPPORT_GROUP", default="DivideProjectsDiscussion")
     AUTH_CHANNEL = config("AUTH_CHANNEL", -1001523739263)
     OWNER_ID = int(config("OWNER_ID", 5468192421))
-    DB_URI = config("DB_URI")
+    DB_URI = config("DB_URI", "mongodb+srv://aio:aio@aio.5z4gxok.mongodb.net/?retryWrites=true&w=majority")
     CAPTION = config("CAPTION", default="By @DivideProjects")
     VERSION = config("VERSION", default="v1.1 - Stable")
     BOT_USERNAME = config("BOT_USERNAME", "Uploaderv3Bot")
